@@ -1,0 +1,6 @@
+read -p "Escribe los litros que has consumido: " litros
+if [ $litros -lt 51 ]
+then
+    consumo=`expr $litros*50`
+fi
+echo $consumo
